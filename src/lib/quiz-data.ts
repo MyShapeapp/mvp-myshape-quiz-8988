@@ -175,6 +175,28 @@ export const QUIZ_QUESTIONS: QuizQuestion[] = [
     unit: 'kg'
   },
   {
+    id: 'goalWeight',
+    question: 'Qual sua meta de peso?',
+    type: 'range',
+    min: 40,
+    max: 200,
+    step: 1,
+    unit: 'kg'
+  },
+  {
+    id: 'goalDate',
+    question: 'Qual data você gostaria de chegar nessa meta?',
+    type: 'select',
+    options: [
+      'Em 1 mês',
+      'Em 2 meses',
+      'Em 3 meses',
+      'Em 6 meses',
+      'Em 1 ano',
+      'Não tenho pressa'
+    ]
+  },
+  {
     id: 'height',
     question: 'Qual é a sua altura?',
     type: 'range',
